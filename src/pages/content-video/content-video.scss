@@ -1,0 +1,93 @@
+.content-video-container {
+  display: flex;
+  padding: 2rem;
+  .content-video-left {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+
+    .content-video-notes-and-questions-container {
+      display: flex;
+      justify-content: center;
+      .content-video-notes-and-questions {
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+
+        :hover {
+          color: #2563eb;
+        }
+      }
+
+      :first-child {
+        margin-right: 1rem;
+      }
+    }
+    .content-video-buttons {
+      display: flex;
+      justify-content: center;
+      .content-video-button {
+        padding: 0.5rem;
+        width: 20%;
+        justify-content: center;
+        margin: 1rem;
+        text-align: center;
+        cursor: pointer;
+      }
+
+      .disabled {
+        color: grey;
+        cursor: not-allowed;
+      }
+    }
+  }
+  .content-video-right {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content-video-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+
+    .content-video-left {
+      width: 100%;
+      .content-video-notes-and-questions-container {
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
+        a {
+          width: 40%;
+          margin: 0.5rem;
+        }
+        .content-video-notes-and-questions {
+          width: 100%;
+        }
+      }
+
+      .content-video-buttons {
+        .content-video-button {
+          padding: 0.5rem;
+          width: 40%;
+          justify-content: center;
+          margin: 1rem;
+          cursor: pointer;
+          text-align: center;
+        }
+      }
+    }
+
+    .content-video-right {
+      width: 100%;
+      .content-card {
+        margin: 0 !important;
+      }
+    }
+  }
+}

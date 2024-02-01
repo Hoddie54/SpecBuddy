@@ -1,0 +1,24 @@
+.spec-filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+
+  select {
+    margin: 1rem;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .spec-filter-container {
+    flex-direction: column;
+    padding: 0.5rem;
+
+    select {
+      margin: 0.5rem;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.spec-topic-container {
+  .spec-topic-title {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .spec-topic-container {
+    .spec-topic-title {
+      margin: 0.1rem;
+      padding: 0.1rem;
+    }
+  }
+
+  .spec-container {
+    margin: 0.1rem !important;
+  }
+}

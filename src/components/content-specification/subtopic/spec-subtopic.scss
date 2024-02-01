@@ -1,0 +1,17 @@
+.spec-subtopic-container {
+  .spec-subtopic-title {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .spec-subtopic-container {
+    .spec-subtopic-title {
+      margin: 0.1rem;
+      padding: 0.1rem;
+    }
+  }
+}

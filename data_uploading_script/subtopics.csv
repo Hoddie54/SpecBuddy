@@ -1,0 +1,32 @@
+title,subtopicId,topicId,higherTier,physics only
+" Energy changes in a system, & ways energy is stored
+before & after such changes",1,1,FALSE,FALSE
+Conservation & dissipation of energy,2,1,FALSE,FALSE
+National & global energy resources,3,1,FALSE,FALSE
+"Current, potential difference & resistance ",1,2,FALSE,FALSE
+Series & parallel circuits ,2,2,FALSE,FALSE
+Domestic uses & safety ,3,2,FALSE,FALSE
+Energy transfers,4,2,FALSE,FALSE
+Static electricity ,5,2,FALSE,TRUE
+Changes of state & the particle model,1,3,FALSE,FALSE
+Internal energy & energy transfers,2,3,FALSE,FALSE
+Particle model & pressure,3,3,FALSE,FALSE
+Atoms & isotopes,1,4,FALSE,FALSE
+Atoms & nuclear radiation,2,4,FALSE,FALSE
+Radioactive emissions & background radiation: uses & hazards,3,4,FALSE,TRUE
+Nuclear fission & fusion,4,4,FALSE,TRUE
+Forces & their interactions,1,5,FALSE,FALSE
+Work done & energy transfer,2,5,FALSE,FALSE
+Forces & elasticity ,3,5,FALSE,FALSE
+"Moments, levers & gears ",4,5,FALSE,TRUE
+Pressue & pressure differences in fluids,5,5,FALSE,TRUE
+Forces & motion,6,5,FALSE,FALSE
+Momentum,7,5,TRUE,FALSE
+"Waves in air, fluids & solids",1,6,FALSE,FALSE
+Electromagnetic waves,2,6,FALSE,FALSE
+Black body radiation,3,6,FALSE,TRUE
+"Permanent & induced magnetism, magnetic forces & fields",1,7,FALSE,FALSE
+The motor effect ,2,7,FALSE,FALSE
+"Induced potential, transformers & the National Grid",3,7,TRUE,TRUE
+Solar system; stability of orbital motions; satellites,1,8,FALSE,TRUE
+Red shift ,2,8,FALSE,TRUE

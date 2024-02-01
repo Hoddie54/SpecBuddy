@@ -1,0 +1,35 @@
+.additional-information-page-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  margin: 5rem 2rem;
+  .additional-information-page-title {
+    margin: 1rem;
+    width: 45%;
+  }
+  .additional-information-page-card {
+    margin: 1rem;
+    width: 55%;
+    // label {
+    //   margin: 1rem 0rem;
+    // }
+    // input {
+    //   width: 80%;
+    // }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .additional-information-page-container {
+    flex-direction: column;
+    margin: 0;
+    .additional-information-page-title {
+      display: none;
+    }
+
+    .additional-information-page-card {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}

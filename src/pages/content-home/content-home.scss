@@ -1,0 +1,14 @@
+.content-home-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+  flex-flow: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+  .content-home-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

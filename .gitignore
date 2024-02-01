@@ -21,3 +21,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/data_uploading_script/firebase-admin-dev.json
+/data_uploading_script/firebase-admin-prod.json
+
+/question_generation_script/key.env
+/question_generation_script/firebase-admin-dev.json
+/question_generation_script/firebase-admin-prod.json
+

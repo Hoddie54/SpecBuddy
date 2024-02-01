@@ -1,0 +1,9 @@
+title,topicId,higherTier,Physics only
+Energy,1,FALSE,FALSE
+Electricity,2,FALSE,FALSE
+Particle Model of Matter,3,FALSE,FALSE
+Atomic Structure,4,FALSE,FALSE
+Forces,5,FALSE,FALSE
+Waves,6,FALSE,FALSE
+Magnetism + Electromagnetism,7,FALSE,FALSE
+Space physics ,8,FALSE,YES

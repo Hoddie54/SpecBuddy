@@ -1,0 +1,16 @@
+.content-question-option {
+  position: relative;
+  cursor: pointer;
+}
+
+.content-question-option-letter {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: blue solid 2px;
+  background-color: white;
+}

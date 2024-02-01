@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@preline/overlay": "^2.0.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,17 +11,32 @@
     "@types/node": "^16.18.67",
     "@types/react": "^18.2.41",
     "@types/react-dom": "^18.2.17",
+    "better-react-mathjax": "^2.0.3",
+    "csv": "^6.3.6",
+    "env-cmd": "^10.1.0",
+    "fast-csv": "^4.3.6",
+    "firebase": "^10.7.0",
+    "firebase-admin": "^12.0.0",
+    "mathjax": "^3.2.2",
+    "openai": "^4.24.1",
+    "preline": "^2.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router": "^6.20.1",
+    "react-router-dom": "^6.20.1",
     "react-scripts": "5.0.1",
+    "sass": "^1.69.5",
+    "scss": "^0.2.4",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "env-cmd -f .env.dev react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:dev": "env-cmd -f .env.dev npm run build && firebase deploy -P wolfgang-dev",
+    "build:prod": "env-cmd -f .env.prod npm run build && firebase deploy -P wolfgang-prod"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +55,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "tailwindcss": "^3.3.6"
   }
 }

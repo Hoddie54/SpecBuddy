@@ -1,0 +1,73 @@
+.content-card {
+  width: 27%;
+  margin: 1rem 2rem;
+  height: auto;
+  position: relative;
+
+  .content-card-svg {
+    width: 100%;
+    filter: blur(30px);
+    position: absolute;
+    min-height: 300px;
+
+    .content-card-svg-1 {
+      flex-shrink: 0;
+      stroke-width: 40px;
+      stroke: #c084fc;
+      opacity: 0.8;
+      position: absolute;
+      top: 0;
+      right: 1rem;
+    }
+
+    .content-card-svg-2 {
+      transform: rotate(135deg);
+      flex-shrink: 0;
+      fill: radial-gradient(
+        83.6% 72.53% at -4.41% 8.74%,
+        rgba(103, 232, 249, 0.5) 0%,
+        rgba(192, 132, 252, 0.5) 100%
+      );
+      opacity: 0.8;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    .content-card-svg-3 {
+      flex-shrink: 0;
+      stroke-width: 40px;
+      stroke: #67e8f9;
+      opacity: 0.8;
+      position: absolute;
+      right: 0;
+      top: 50%;
+    }
+
+    .content-card-svg-4 {
+      flex-shrink: 0;
+      stroke-width: 40px;
+      stroke: #c084fc;
+      opacity: 0.8;
+      position: absolute;
+      right: 50%;
+      top: 50%;
+    }
+  }
+
+  .content-card-content {
+    z-index: 5;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content-card {
+    width: 90%;
+    margin: 0.5rem;
+  }
+}

@@ -1,0 +1,54 @@
+.settings-form-container {
+  margin: 2rem;
+  // width: 50%;
+
+  .settings-form-form {
+    padding: 0.5rem;
+    max-height: 65vh;
+    overflow-y: scroll;
+
+    input,
+    select {
+      margin: 1rem 0rem;
+    }
+
+    .settings-subject-table,
+    .settings-alert {
+      margin: 1rem 0rem;
+    }
+
+    .settings-new-subjects {
+      display: flex;
+      margin: 1rem 0rem;
+      width: 100%;
+      .settings-new-subject {
+        margin-right: 0.5rem;
+        width: 50%;
+      }
+    }
+
+    .settings-buttons {
+      margin: 1rem;
+      margin-left: 0;
+      text-align: center;
+      width: 30%;
+    }
+  }
+}
+
+// .settings-form-form.initial-form {
+// }
+
+@media only screen and (max-width: 768px) {
+  .settings-form-container {
+    margin: 0.5rem;
+
+    .settings-form-form {
+      padding: 0rem;
+    }
+
+    .settings-buttons {
+      width: 50% !important;
+    }
+  }
+}

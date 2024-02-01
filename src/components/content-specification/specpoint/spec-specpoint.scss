@@ -1,0 +1,71 @@
+.spec-specpoint-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  width: 100%;
+  justify-content: space-between;
+  .spec-specpoint-number {
+    margin-right: 1rem;
+    span {
+      background-color: blue;
+      color: white;
+      font-weight: bold;
+      width: fit-content;
+      border-radius: 10px;
+      padding: 0.5rem;
+    }
+  }
+  .spec-specpoint-description {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    ul {
+      list-style-type: disc;
+      list-style-position: inside;
+      text-indent: 1rem;
+    }
+  }
+  .spec-specpoint-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem;
+    align-items: center;
+    justify-content: flex-start;
+
+    span {
+      width: min-content;
+    }
+
+    button {
+      margin: 0.5rem 0;
+      padding: 0rem 1rem;
+      border-radius: 1rem;
+      color: white;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .spec-specpoint-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .spec-specpoint-title {
+      margin: 0.1rem;
+      padding: 0.1rem;
+    }
+    .spec-specpoint-description {
+      width: 100%;
+      hr {
+        display: none;
+      }
+    }
+    .spec-specpoint-number {
+      margin: 0.5rem;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}

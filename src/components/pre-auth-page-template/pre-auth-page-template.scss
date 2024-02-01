@@ -1,0 +1,37 @@
+.pre-auth-template-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  margin: 10rem 2rem;
+  .pre-auth-template-title {
+    margin: 1rem;
+    width: 45%;
+  }
+  .pre-auth-template-card {
+    margin: 1rem;
+    width: 55%;
+    label {
+      margin: 1rem 0rem;
+    }
+    input {
+      width: 80%;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pre-auth-template-container {
+    flex-direction: column;
+    margin: 1rem;
+
+    .pre-auth-template-title {
+      width: 100%;
+    }
+
+    .pre-auth-template-card {
+      width: 100%;
+      margin: 0;
+      margin-top: 2rem;
+    }
+  }
+}
